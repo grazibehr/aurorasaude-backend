@@ -47,9 +47,9 @@ backend/
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/grazibehr/backend.git
+git clone https://github.com/grazibehr/aurorasaude-backend.git
 
-cd backend
+cd aurorasaude-backend
 ```
 ---
 
