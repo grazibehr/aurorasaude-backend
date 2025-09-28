@@ -89,6 +89,14 @@ Após iniciar o servidor, acesse a documentação:
 
 👉 [http://127.0.0.1:5000/openapi/swagger](http://127.0.0.1:5000/openapi/swagger)
 
+ Para acessar as rotas que exigem autenticação, é necessário informar o token de acesso recebido ao realizar login (/auth/login).
+ ```bash
+ 1 - No Swagger, clique no botão Authorize (canto superior direito).
+ 2 - No campo de autenticação, insira o token recebido.
+ 3 - Clique em Authorize e depois em Close.
+
+A partir desse momento, todas as requisições protegidas no Swagger já estarão autenticadas.
+ ```
 ---
 
 ## 👩‍💻 Autoria
